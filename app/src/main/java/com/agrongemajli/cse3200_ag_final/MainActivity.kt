@@ -12,6 +12,9 @@ import com.agrongemajli.cse3200_ag_final.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
+    //NOTE: did not need to set user-permission for camera. That caused an error because of deprication.
+    //The program will automatically call for camera access using the Intent below.
+
     private lateinit var binding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
