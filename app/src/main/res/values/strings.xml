@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">CSE3200-AG-Final</string>
+    <string name="take_photo_button">Take Photo</string>
+    <string name="current_photo">Current Photo</string>
+    <string name="previous_photo">Previous Photo</string>
 </resources>
